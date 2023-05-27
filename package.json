@@ -1,8 +1,8 @@
 {
   "name": "number_symbol",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Number Change Symbol['K', 'M', 'G', 'T', 'P', 'E', 'Z']",
-  "homepage": "https://github.com/minjund",
+  "homepage": "https://github.com/minjund/numberSymbol",
   "license": "MIT",
   "author": {
     "name": "Kim Min Jun",

@@ -1,6 +1,6 @@
 # Number_Symbols
 
-![스크린샷 2023-05-27 오후 6.22.38.png](..%2F..%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-27%20%EC%98%A4%ED%9B%84%206.22.38.png)
+![symoblImage.png](symoblImage.png)
 
 `Number Symbols` displays symbols according to the number of digits.
 
