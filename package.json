@@ -1,6 +1,6 @@
 {
   "name": "number_symbol",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Number Change Symbol['K', 'M', 'G', 'T', 'P', 'E', 'Z']",
   "homepage": "https://github.com/minjund",
   "license": "MIT",
@@ -8,11 +8,17 @@
     "name": "Kim Min Jun",
     "email": "mam060922@naver.com"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "keywords": [
     "xhr",
     "http",
     "ajax",
     "promise",
     "node"
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
