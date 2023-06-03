@@ -1,4 +1,4 @@
-const number  = require('./index');
+const number  = require('../lib');
 
 test('nullCheck', () => {
     expect(number('',true)).toEqual(0);
@@ -15,9 +15,12 @@ test('Int Check', () => {
 });
 
 test('String Check', () => {
-    expect(number('1233',0,true)).toEqual('1K');
+    expect(number('1233',true, 0)).toEqual('1K');
 });
 
 test('InputText', () => {
-    expect(number('asd2374',0,true)).toEqual(false);
+    expect(number('asd2374',true,0)).toEqual(false);
+});
+test('inputDotLength', () => {
+    expect(number('1234567891923987',true,102)).toEqual(false);
 });

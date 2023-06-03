@@ -1,24 +1,35 @@
 {
-  "name": "number_symbol",
-  "version": "0.1.1",
-  "description": "Number Change Symbol['K', 'M', 'G', 'T', 'P', 'E', 'Z']",
+  "name": "number-symbol",
+  "version": "1.1.5",
+  "description": "Number Symbol Change['K', 'M', 'G', 'T', 'P', 'E', 'Z']",
   "homepage": "https://github.com/minjund/numberSymbol",
   "license": "MIT",
   "author": {
-    "name": "Kim Min Jun",
-    "email": "mam060922@naver.com"
+    "name": "Min Jun Kim",
+    "email": "mam060922@gmail.com"
   },
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest"
   },
+  "files": [
+    "lib",
+    "!test/"
+  ],
   "keywords": [
-    "xhr",
-    "http",
-    "ajax",
-    "promise",
+    "number",
+    "symbol",
+    "number-symbol",
+    "vue",
+    "react",
     "node"
   ],
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/minjund/numberSymbol",
+    "email": "mam060922@gmail.com"
   }
+
 }

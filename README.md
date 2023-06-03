@@ -1,7 +1,5 @@
 # Number_Symbols
 
-![symoblImage.png](symoblImage.png)
-
 `Number Symbols` displays symbols according to the number of digits.
 
 If the second argument is set to true, ['K', 'M', 'G', 'T', 'P', 'E', 'Z'] is displayed according to the number of digits.
@@ -52,4 +50,13 @@ Symbol('1233', true, 3) // 1.233K
 Symbol(1233, false) // 1,233
 Symbol(1233, false, 1) // 1233.0
 Symbol(1233, false, 2) // 1233.00
+```
+6. afterDotLength can be input up to max 100 and returns false from 101 or higher.
+```js
+var Symbol = require('number_symbols');
+
+Symbol(1233, true, 101) // false
+Symbol(1233, true, 99) // 1233K
+Symbol(1233, true, 4) // 1233K
+Symbol(1233, true, 3) // 1.233K
 ```
