@@ -1,6 +1,6 @@
 {
-  "name": "number-symbol",
-  "version": "1.1.5",
+  "name": "number_symbol",
+  "version": "1.1.6",
   "description": "Number Symbol Change['K', 'M', 'G', 'T', 'P', 'E', 'Z']",
   "homepage": "https://github.com/minjund/numberSymbol",
   "license": "MIT",
@@ -20,6 +20,7 @@
     "number",
     "symbol",
     "number-symbol",
+    "number_symbol",
     "vue",
     "react",
     "node"
@@ -31,5 +32,4 @@
     "url": "https://github.com/minjund/numberSymbol",
     "email": "mam060922@gmail.com"
   }
-
 }

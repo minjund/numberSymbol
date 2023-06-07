@@ -44,12 +44,17 @@ Symbol('1233', false) // 1,233
 ```js
 var Symbol = require('number_symbols');
 
-Symbol(1233, true, 1) // 1.2K
-Symbol('1233', true, 2) // 1.23K
-Symbol('1233', true, 3) // 1.233K
-Symbol(1233, false) // 1,233
-Symbol(1233, false, 1) // 1233.0
-Symbol(1233, false, 2) // 1233.00
+Symbol(1233, true, 1) // "1.2K"
+Symbol('1233', true, 2) // "1.23K"
+Symbol('1233', true, 3) // "1.233K"
+
+Symbol(1233, false) // "1,233"
+Symbol(1233, false, 1) // "1233.0"
+Symbol(1233, false, 2) // "1233.00"
+
+Symbol(1233.12, false, 2) // "1,233.12"
+Symbol(123.12, false, 2) // "123.12"
+Symbol(1233.12, true, 2) // "1.23K"
 ```
 6. afterDotLength can be input up to max 100 and returns false from 101 or higher.
 ```js
