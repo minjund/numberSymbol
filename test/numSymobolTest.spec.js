@@ -26,5 +26,5 @@ test('inputDotLength', () => {
 });
 
 test('dotLengthTest', () => {
-    expect(number('121231233.134',false,2)).toEqual("123.13");
+    expect(number('121.231233.134',false,2)).toEqual("123.13");
 });

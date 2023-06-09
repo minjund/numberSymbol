@@ -4,6 +4,8 @@
 
 If the second argument is set to true, ['K', 'M', 'G', 'T', 'P', 'E', 'Z'] is displayed according to the number of digits.
 
+The default return value consists of only String Type and false.
+
 # Install
 Install with npm:
 ```
