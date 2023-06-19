@@ -27,12 +27,14 @@ var Symbol = require('number_symbols')
 Symbol('', true) // '0'
 Symbol(null, true) // '0'
 ```
-3. When a character comes in, false is returned.
+3. When a character comes in, you can return false or enter the 4th value to make a custom return.
 ```js
 var Symbol = require('number_symbols')
 Symbol('1233abc', false, 1) // false
 Symbol('1ab2bc', false, 1) // false
 Symbol('ab2bc', false, 1) // false
+Symbol('ab2bc', false, 1, '-') // -
+Symbol('1ab2bc', false, 1, '??') // ??
 ```
 4. If the second argument is set to true, ['K', 'M', 'G', 'T', 'P', 'E', 'Z'] is displayed according to the number of digits.
 ```js

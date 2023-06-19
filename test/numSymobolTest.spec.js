@@ -25,6 +25,9 @@ test('inputDotLength', () => {
     expect(number('1234567891923987',true,102)).toEqual(false);
 });
 
-test('dotLengthTest', () => {
-    expect(number('121.231233.134',false,2)).toEqual("123.13");
+test('costomReturnTest', () => {
+    expect(number('121.231233.134',false,2,'-')).toEqual('-');
+});
+test('costomReturnTestString', () => {
+    expect(number('121ㅁㅈㅈㅁ.134',false,101,'??')).toEqual('??');
 });

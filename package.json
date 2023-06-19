@@ -1,6 +1,6 @@
 {
   "name": "number_symbol",
-  "version": "1.1.7",
+  "version": "1.2.7",
   "description": "Number Symbol Change['K', 'M', 'G', 'T', 'P', 'E', 'Z']",
   "homepage": "https://github.com/minjund/numberSymbol",
   "license": "MIT",
